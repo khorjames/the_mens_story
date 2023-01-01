@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Men's Story</title>>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="css/product.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <!-- Start of the Header section of Product Categories page-->
+
+    <!-- Define the header image and title -->
+    <div class="header">
+        <h1><img alt="The Mens Fashion" src="images/the_mens_fashion.png"/>The Men's Story &trade;</h1>
+        <p>Fashion is about comfort and rejoice <span class="amp">&amp;</span> creating lasting user experiences with the brand.</p>
+    </div>
+
+    <!-- Define the navigation horizontal bars -->
+    <ul class="topnav">
+        <li>
+            <a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a>
+        </li>
+        <li class="dropdown">
+            <a href="category.html" class="dropbtn"><i class="fa fa-fw fa-user"></i>Men's Wear</a>
+            <div class="dropdown-content">
+                <a href="product.html">Casual Wear</a>
+                <a href="#">Business Wear</a>
+                <a href="#">Business Suit</a>
+                <a href="#">Shoe Wear</a>
+            </div>
+        </li>
+        <li>
+            <a href="#news"><i class="fa fa-fw fa-shopping-bag"></i>Current Promotions</a>
+        </li>
+        <li>
+            <a href="contact.html"><i class="fa fa-fw fa-address-book"></i>Contact Us</a>
+        </li>
+        <li>
+            <a href="about.html"><i class="fa fa-fw fa-info-circle"></i>About Us</a>
+        </li>
+    </ul>
+    <!-- End of the Header section of Product Details page-->
+
+    <!-- Start of the Content section of Product Details page-->
+    <div class="row">
+
+        <!-- Define the left column for the content of the Home page -->
+        <div class="leftcolumn">
+
+            <!-- This is to group together both slides show and the images of the different colors of the shirt -->
+            <div class="card">
+
+                <!-- This section is for the slide show whenever the image of the different color of the shirt is clicked -->
+                <div class="container">
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 6</div>
+                        <div class="slideimg"><img src="images/greymodel.png" style="width: 100%;"></div>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 6</div>
+                        <div class="slideimg"><img src="images/lightbluemodel.png" style="width: 100%;"></div>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 6</div>
+                        <div class="slideimg"><img src="images/navymodel.png" style="width: 100%;"></div>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 6</div>
+                        <div class="slideimg"><img src="images/maroonmodel.jpg" style="width: 100%;"></div>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 6</div>
+                        <div class="slideimg"><img src="images/darkgreenmodel.jpg" style="width: 100%;"></div>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 6</div>
+                        <div class="slideimg"><img src="images/blackmodel.png" style="width: 100%;"></div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">(</a>
+                    <a class="next" onclick="plusSlides(+1)">)</a>
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                </div>
+
+                <!-- This section is for showing the different colors of the shirt -->
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="images/grey.png" style="width:100%" onclick="currentSlide(1)" alt="Grey Polo Tee">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/lightblue.png" style="width:100%" onclick="currentSlide(2)" alt="Light Blue Polo Tee">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/navy.png" style="width:100%" onclick="currentSlide(3)" alt="Navy Polo Tee">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/maroon.png" style="width:100%" onclick="currentSlide(4)" alt="Maroon Polo Tee">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/darkgreen.png" style="width:100%" onclick="currentSlide(5)" alt="Dark Green Polo Tee">
+                    </div>    
+                    <div class="column">
+                        <img class="demo cursor" src="images/black.png" style="width:100%" onclick="currentSlide(6)" alt="Black Polo Tee">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Define the right column for the content of the Home page -->
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>Your Item Details</h2>
+                <br>
+                <div class="polo">
+                    <h3>Polo grey</h3>
+                    <h3><span class="dot"></span>&nbsp;In Stock.&nbsp;&nbsp;&nbsp;SKU: 5531</h3>
+                </div>
+                <div class="polo" hidden>
+                    <h3>Polo light blue</h3>
+                    <h3><span class="dot"></span>&nbsp;In Stock.&nbsp;&nbsp;&nbsp;SKU: 5532</h3>
+                </div>
+                <div class="polo" hidden>
+                    <h3>Polo navy</h3>
+                    <h3><span class="dot"></span>&nbsp;In Stock.&nbsp;&nbsp;&nbsp;SKU: 5533</h3>
+                </div>
+                <div class="polo" hidden>
+                    <h3>Polo maroon</h3>
+                    <h3><span class="dot"></span>&nbsp;In Stock.&nbsp;&nbsp;&nbsp;SKU: 5534</h3>
+                </div>       
+                <div class="polo" hidden>
+                    <h3>Polo dark green</h3>
+                    <h3><span class="dot"></span>&nbsp;In Stock.&nbsp;&nbsp;&nbsp;SKU: 5535</h3>
+                </div>        
+                <div class="polo" hidden>
+                    <h3>Polo black</h3>
+                    <h3><span class="dot"></span>&nbsp;In Stock.&nbsp;&nbsp;&nbsp;SKU: 5536</h3>
+                </div>    
+                <br>
+                <h3>Price:&nbsp;$350</h3>
+
+                <form id="formProduct" method="post" action="#">
+                    <label for="size">Size&nbsp;</label>
+                    <select id="size" name="size">
+                        <option value="default" selected>Choose an option</option>
+                        <option value="small">S</option>
+                        <option value="medium">M</option>
+                        <option value="large">L</option>
+                        <option value="xlarge">Extra Large</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    <br>
+                    <br>
+                    <div id="formSubmit">
+                        <input type="submit">
+                    </div>
+                    <br>
+                    <p>Slim fit. Premium, organic soft cotton pique. Mother of pearl buttons.</p>
+                    <p>The collar is constructed like a woven shirt with a collar band and two layers of self fabric, instead of the typical single layer of ribbed fabric that loses its shape quickly. This allows the collar to naturally lay open elegantly. It is also a spread collar for a subtle, rakish look.</p>
+                    <br>
+                    <p>Material:&nbsp;100% cotton</p>
+ 
+                </form>
+            </div>
+
+            <!-- Define the 2nd section in the right column for the content of the Home page -->
+            <div class="card">
+                <h3>Follow Me</h3>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+            </div>
+
+          </div>
+        </div>
+    </div>
+    <!-- Start of the Content section of Product Details page-->
+
+    <!-- Start of the Footer section of PRoduct Details page -->
+    <div class="footer">
+        <h2>Copyright &copy; The Men's Story, all rights reserved.</h2>
+    </div>
+    <!-- End of the Footer section of Product Details page -->
+
+    <!-- Start of the Script section of Product Details page-->
+    <!-- The script will show illustrate how the color of the shirt will look like on a male model. Correspondingly, the product details on the right column will also change accordingly -->
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("demo");
+            let captionText = document.getElementById("caption");
+            let poloText = document.getElementsByClassName("polo");
+
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+
+            /* Hide all the slides of the product models as well as the product details e.g. color of the shirt, in stock or out of stock as well as the SKU */
+            for (i=0; i<slides.length; i++){
+                slides[i].style.display = "none";
+                poloText[i].style.display = "none";
+            }
+
+            /* Hide all the description of the products below the product models */
+            for (i=0; i<dots.length; i++) {
+                dots[i].className = dots[i].className.replace("active","");
+            }
+
+            /* Display the specific product model, description and the product details based on the type the user has clicked */
+            slides[slideIndex-1].style.display = "block";
+            poloText[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+    </script>
+    <script src="js/productSubmit.js"></script>
+    <!-- End of the Script section of Product Details page-->
+
+</body>
+</html>
